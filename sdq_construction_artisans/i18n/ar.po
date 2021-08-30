@@ -1,0 +1,365 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* sdq_construction_artisans
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-30 08:44+0000\n"
+"PO-Revision-Date: 2021-08-30 08:44+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__rest_amount
+msgid " Totale Restant"
+msgstr "الباقي"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__message_needaction
+msgid "Action Needed"
+msgstr "Nécessite une action"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__activity_ids
+msgid "Activities"
+msgstr "أنشطة"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__agreed_amount
+msgid "Agreed Amount"
+msgstr "المبلغ المتفق عليه"
+
+#. module: sdq_construction_artisans
+#: model:ir.actions.act_window,name:sdq_construction_artisans.construction_artisans_action
+#: model:ir.ui.menu,name:sdq_construction_artisans.menu_1
+#: model:ir.ui.menu,name:sdq_construction_artisans.menu_11
+#: model_terms:ir.ui.view,arch_db:sdq_construction_artisans.construction_artisans_form
+#: model_terms:ir.ui.view,arch_db:sdq_construction_artisans.construction_artisans_tree
+msgid "Artisan"
+msgstr "الحرفي"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: sdq_construction_artisans
+#: model_terms:ir.ui.view,arch_db:sdq_construction_artisans.construction_artisans_form
+msgid "Avances"
+msgstr "السلف"
+
+#. module: sdq_construction_artisans
+#: model_terms:ir.actions.act_window,help:sdq_construction_artisans.construction_artisans_action
+msgid "Create your First Artisan !"
+msgstr "قم بإنشاء أول حرفي لك"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__create_uid
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans_order_lines__create_uid
+msgid "Created by"
+msgstr "انشأ من قبل"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__create_date
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans_order_lines__create_date
+msgid "Created on"
+msgstr "أنشأ"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans_order_lines__date
+msgid "Date"
+msgstr "تاريخ "
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__date
+msgid "Date de signature"
+msgstr "تاريخ التوقيع"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__category
+msgid "Departement"
+msgstr "قسم"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__display_name
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans_order_lines__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض "
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__signed_contract
+msgid "Document signé"
+msgstr "الوثيقة الموقعة"
+
+#. module: sdq_construction_artisans
+#: model_terms:ir.ui.view,arch_db:sdq_construction_artisans.construction_artisans_form
+msgid "Done"
+msgstr "صنع"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__notes
+msgid "Déscription"
+msgstr "وصف"
+
+#. module: sdq_construction_artisans
+#: selection:construction.artisans,state:0
+msgid "En Cours"
+msgstr "الجاري"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__message_follower_ids
+msgid "Followers"
+msgstr "Abonnés"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Abonnés (Canaux)"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Abonnés (Partenaires)"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__id
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__name_seq
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans_order_lines__id
+msgid "ID"
+msgstr ""
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,help:sdq_construction_artisans.field_construction_artisans__message_unread
+msgid "If checked new messages require your attention."
+msgstr "Si coché, de nouveaux messages demandent votre attention."
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,help:sdq_construction_artisans.field_construction_artisans__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si coché, de nouveaux messages demandent votre attention."
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,help:sdq_construction_artisans.field_construction_artisans__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si actif, certains messages ont une erreur de livraison."
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__message_is_follower
+msgid "Is Follower"
+msgstr "Est un abonné"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans____last_update
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans_order_lines____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__write_uid
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans_order_lines__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__write_date
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans_order_lines__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Pièce jointe principale"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__message_has_error
+msgid "Message Delivery error"
+msgstr "Erreur d'envoi du message"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__message_ids
+msgid "Messages"
+msgstr "رسائل"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans_order_lines__total_amount
+msgid "Montant"
+msgstr "المبلغ"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans_order_lines__motif
+msgid "Motif"
+msgstr "الدافع"
+
+#. module: sdq_construction_artisans
+#: code:addons/sdq_construction_artisans/models/models.py:14
+#: code:addons/sdq_construction_artisans/models/models.py:15
+#: code:addons/sdq_construction_artisans/models/models.py:20
+#, python-format
+msgid "New"
+msgstr "جديد"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط القادم"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط التالي"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع الأنشطة القادمة"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans_order_lines__artisan_name
+msgid "Nom De l'Artisan"
+msgstr "اسم الحرفي"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__name
+msgid "Nom De l'Artisans"
+msgstr "اسم الحرفي"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__message_has_error_counter
+msgid "Number of error"
+msgstr "عدد الأخطاء"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,help:sdq_construction_artisans.field_construction_artisans__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,help:sdq_construction_artisans.field_construction_artisans__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها أخطاء في الإرسال"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,help:sdq_construction_artisans.field_construction_artisans__message_unread_counter
+msgid "Number of unread messages"
+msgstr "عدد الرسائل غير المقروءة"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__order_line
+msgid "Order Line"
+msgstr ""
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans_order_lines__order_id
+msgid "Order Reference"
+msgstr "ترتيب المرجعي"
+
+#. module: sdq_construction_artisans
+#: selection:construction.artisans,activity_state:0
+msgid "Overdue"
+msgstr "متأخر"
+
+#. module: sdq_construction_artisans
+#: selection:construction.artisans,state:0
+msgid "Paid"
+msgstr "مدفوع"
+
+#. module: sdq_construction_artisans
+#: selection:construction.artisans,activity_state:0
+msgid "Planned"
+msgstr "مخطط"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans_order_lines__avance
+msgid "Price"
+msgstr "سعر"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__activity_user_id
+msgid "Responsible User"
+msgstr "Responsable"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__company_id
+msgid "Société"
+msgstr "الشركة"
+
+#. module: sdq_construction_artisans
+#: code:addons/sdq_construction_artisans/models/models.py:68
+#, python-format
+msgid "Sorry! Agreed Amount must be greather than Advanced Amount"
+msgstr "آسف! يجب أن يكون المبلغ المتفق عليه أكبر من المبلغ المتقدم"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__state
+msgid "Status"
+msgstr "حالة"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,help:sdq_construction_artisans.field_construction_artisans__activity_state
+msgid "Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr "Statut basé sur les activités\n"
+"En retard : la date d'échéance est déjà dépassée\n"
+"Aujourd'hui : la date d'activité est aujourd'hui\n"
+"Planifiée : activités futures"
+
+#. module: sdq_construction_artisans
+#: selection:construction.artisans,activity_state:0
+msgid "Today"
+msgstr "اليوم"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__advance_amount
+msgid "Totale des avances"
+msgstr "إجمالي السلف"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__message_unread
+msgid "Unread Messages"
+msgstr "Messages non lus"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "عداد الرسائل غير المقروءة"
+
+#. module: sdq_construction_artisans
+#: model:ir.model,name:sdq_construction_artisans.model_construction_artisans
+msgid "construction.artisans"
+msgstr ""
+
+#. module: sdq_construction_artisans
+#: model:ir.model,name:sdq_construction_artisans.model_construction_artisans_order_lines
+msgid "construction.artisans.order.lines"
+msgstr ""
+
+#. module: sdq_construction_artisans
+#: model_terms:ir.ui.view,arch_db:sdq_construction_artisans.construction_artisans_form
+msgid "paid"
+msgstr "مدفوع"
+
+#. module: sdq_construction_artisans
+#: model:ir.model.fields,field_description:sdq_construction_artisans.field_construction_artisans__project_id
+msgid "project"
+msgstr "مشروع"
+

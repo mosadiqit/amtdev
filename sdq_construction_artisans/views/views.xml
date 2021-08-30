@@ -1,0 +1,126 @@
+<odoo>
+    <!--    <?xml version="1.0" encoding="utf-8"?>-->
+
+
+    <!--tree view of the project model-->
+
+    <record id="construction_artisans_tree" model="ir.ui.view">
+        <field name="name">construction_artisans_tree</field>
+        <field name="model">construction.artisans</field>
+        <field name="arch" type="xml">
+            <tree string="Artisan">
+                <!--                <field name="name_seq"/>-->
+                <field name="name_seq"/>
+                <field name="name"/>
+                <field name="company_id"/>
+                <field name="project_id"/>
+                <field name="date"/>
+                <field name="agreed_amount"/>
+                <field name="state"/>
+                <!--                <field name="advance_amount"/>-->
+                <!--                <field name="rest_amount"/>-->
+            </tree>
+        </field>
+    </record>
+
+    <!--form view of the patient model-->
+    <record id="construction_artisans_form" model="ir.ui.view">
+        <field name="name">construction.artisans.form</field>
+        <field name="model">construction.artisans</field>
+        <field name="arch" type="xml">
+            <form string="Artisan">
+                <header>
+                    <button name="action_confirm" type="object" string="paid" class="oe_highlight" states="en cours"/>
+<!--                    <button name="action_notify" type="object" string="Notify" class="oe_highlight" states="draft"/>-->
+                    <button name="action_done" type="object" string="Done" class="oe_highlight"
+                            attrs="{'invisible': [('state','!=', 'paid')]}"/>
+<!--                    <button name="delete_lines" type="object" string="Delete" class="oe_highlight"/>-->
+<!--                    <button name="test_recordset" type="object" string="Record Set Operations" class="oe_highlight"/>-->
+                    <field name="state" widget="statusbar" statusbar_visible="en cours,paid"/>
+                    <field name="state" widget="statusbar"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <group>
+                            <label for="name" string="Artisan" class="col-3 col-lg-3 o_light_label"/>
+                            <div>
+                                <h1>
+                                    <field name="name"/>
+                                    <!--                                    <field name="name"/>-->
+                                    <!--                                    <field name="category"/>-->
+                                </h1>
+                            </div>
+                        </group>
+                    </div>
+                    <div>
+
+                        <group>
+                            <group>
+                                <field name="name_seq"/>
+                                <field name="company_id"/>
+                                <field name="project_id"/>
+                                <field name="agreed_amount"/>
+                                <field name="advance_amount"/>
+                                <label for="rest_amount"/>
+                                <div>
+                                    <h1>
+                                        <field name="rest_amount"/>
+                                    </h1>
+                                </div>
+                            </group>
+                            <group>
+                                <field name="date"/>
+                                <field name="signed_contract"/>
+                                <field name="notes"/>
+                            </group>
+                        </group>
+                    </div>
+                    <separator string="Avances"/>
+                    <notebook>
+                        <page name="info" string="Avances">
+                            <field name="order_line" nolabel="1">
+                                <tree editable="top">
+                                    <field name="order_id" invisible="1"/>
+                                    <field name="artisan_name"/>
+                                    <field name="date"/>
+                                    <!--                                    <field name="avance"/>-->
+                                    <field name="motif"/>
+                                    <field name="total_amount"/>
+                                </tree>
+                            </field>
+                            <group class="oe_subtotal_footer oe_right">
+                                <field name="advance_amount" widget="monetary"
+                                       options="{'currency_field': 'currency_id'}"/>
+                            </group>
+                        </page>
+
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="activity_ids" widget="mail_activity"/>
+                    <field name="message_ids" widget="mail_thread"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="construction_artisans_action" model="ir.actions.act_window">
+        <field name="name">Artisan</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">construction.artisans</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form,kanban,graph,pivot</field>
+        <field name="domain">[]</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your First Artisan !
+            </p>
+        </field>
+    </record>
+
+
+    <menuitem name="Artisan" id="sdq_construction_artisans.menu_1" sequence="1"/>
+    <menuitem name="Artisan" id="sdq_construction_artisans.menu_11" sequence="2" action="construction_artisans_action"
+              parent="sdq_construction_artisans.menu_1"/>
+</odoo>

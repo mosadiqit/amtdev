@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <record id="product_category_renting" model="product.category">
+            <field name="parent_id" ref="product.cat_expense"/>
+            <field name="name">Renting</field>
+        </record>
+
+        <record id="product_renting_day" model="product.product">
+            <field name="name">Rental per days</field>
+            <field name="categ_id" ref="sdq_vehicle_rent.product_category_renting"/>
+            <field name="standard_price">100.0</field>
+            <field name="type">service</field>
+            <field name="uom_po_id" ref="uom.product_uom_day"/>
+            <field name="uom_id" ref="uom.product_uom_day"/>
+            <field name="default_code">rent</field>
+        </record>
+
+    </data>
+</odoo>
